@@ -11,6 +11,7 @@ class ValidadorIBANTest extends TestCase
     public function puede_validar_un_IBAN_correcto()
     {
         // Creamos una instancia del validador IBAN
+
         $ibanController = new IBANController();
         /// Definimos un IBAN válido para la prueba
         $ibanValido = 'ES9121000418450200051332';
